@@ -1,11 +1,7 @@
 // ===== MUNCULKAN BODY (fix bug opacity:0 permanen) =====
-// Diletakkan paling atas & tidak bergantung ke library lain,
-// supaya body tetap muncul walau ada error di kode lain di bawah ini.
 document.body.style.opacity = 1;
 
 // ===== TYPED.JS (efek ketik di Home) =====
-// Dibungkus try/catch: kalau library Typed gagal/belum siap,
-// error-nya tidak akan menghentikan sisa script di bawah.
 try {
     var typed = new Typed(".text", {
         strings: ["Frontend Developer", "YouTuber", "Web Developer"],
@@ -129,9 +125,6 @@ const formStatus = document.getElementById('formStatus');
 if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
-        // Catatan: form ini belum terhubung ke server atau layanan email.
-        // Sambungkan ke backend sendiri, atau layanan seperti Formspree/EmailJS,
-        // supaya pesan benar-benar terkirim.
         formStatus.textContent = 'Terima kasih! Form ini masih contoh tampilan, belum terhubung ke server.';
         contactForm.reset();
     });
