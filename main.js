@@ -1,6 +1,19 @@
 // ===== MUNCULKAN BODY (fix bug opacity:0 permanen) =====
 document.body.style.opacity = 1;
 
+// ===== UKUR TINGGI HEADER ASLI (biar konten Home dijamin
+// tidak pernah ketutupan header yang position:fixed) =====
+function setHeaderHeightVar() {
+    const header = document.querySelector('.header');
+    if (!header) return;
+    const h = header.offsetHeight;
+    // tambah buffer 12px biar ada sedikit jarak aman
+    document.documentElement.style.setProperty('--header-h', (h + 12) + 'px');
+}
+setHeaderHeightVar();
+window.addEventListener('load', setHeaderHeightVar);
+window.addEventListener('resize', setHeaderHeightVar);
+
 // ===== TYPED.JS (efek ketik di Home) =====
 try {
     var typed = new Typed(".text", {

@@ -90,6 +90,21 @@ section{ padding:var(--section-py) var(--section-px); }
 
 .home{ min-height:100vh; }
 
+/* Jarak aman dari header yang fixed, supaya konten section
+   (terutama Home) tidak ketutupan/numpuk sama header */
+
+:root{
+
+    --header-h:110px;
+
+}
+
+section[id]{
+
+    scroll-margin-top:var(--header-h);
+
+}
+
 /* =======================================================
    HEADER
 ======================================================= */
@@ -212,6 +227,7 @@ body.menu-open{ overflow:hidden; }
     justify-content:space-between;
     align-items:center;
     gap:80px;
+    padding-top:calc(var(--section-py) + var(--header-h));
 }
 
 .home-content{ flex:1; }
@@ -1021,7 +1037,7 @@ body.menu-open{ overflow:hidden; }
         flex-direction:column-reverse;
         text-align:center;
         gap:40px;
-        padding-top:40px;
+        padding-top:calc(var(--header-h) + 24px);
     }
     .home-content p{ margin-left:auto; margin-right:auto; }
     .home-sci,
@@ -1157,10 +1173,35 @@ textarea:focus-visible{
 
 .typed-line{
     min-height:1.4em;
-    overflow-wrap:break-word;
+    width:100%;
+    max-width:100%;
+    white-space:normal !important;
+    overflow-wrap:break-word !important;
+    word-break:break-word !important;
 }
 
-.typed-line .text{ display:inline-block; }
+.typed-line .text{
+    display:inline !important;
+    white-space:normal !important;
+    overflow-wrap:break-word !important;
+    max-width:100%;
+}
+
+.home-content{
+    width:100%;
+    max-width:100%;
+}
+
+/* Di layar sangat sempit, baris ini bisa jadi 2 baris —
+   siapkan ruang & kecilkan font supaya tetap rapi */
+
+@media(max-width:480px){
+    .typed-line{
+        font-size:clamp(16px, 5.5vw, 22px);
+        min-height:2.6em;
+        line-height:1.3;
+    }
+}
 
 /* Perkecil & rapatkan hero di layar HP supaya tidak perlu
    scroll panjang sebelum sampai ke tombol CTA */
@@ -1172,7 +1213,7 @@ textarea:focus-visible{
     }
     .home{
         gap:24px;
-        padding-top:24px;
+        padding-top:calc(var(--header-h) + 16px);
     }
     .home-content p{
         margin:15px auto;
