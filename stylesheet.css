@@ -1,6 +1,4 @@
-/* =======================================================
-   GOOGLE FONT
-======================================================= */
+/* ======================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
@@ -374,9 +372,9 @@ section{
 
 .glowing-circle{
 
-    width:420px;
+    width:500px;
 
-    height:420px;
+    height:500px;
 
     border-radius:50%;
 
@@ -426,9 +424,9 @@ section{
 
     position:absolute;
 
-    width:385px;
+    width:460px;
 
-    height:385px;
+    height:460px;
 
     background:#081b29;
 
@@ -438,9 +436,9 @@ section{
 
 .image{
 
-    width:360px;
+    width:430px;
 
-    height:360px;
+    height:430px;
 
     border-radius:50%;
 
@@ -458,7 +456,11 @@ section{
 
 .image img{
 
-    width:80%;
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
 
 }
 
@@ -536,6 +538,10 @@ section{
 .about-img img{
 
     width:380px;
+
+    height:380px;
+
+    object-fit:cover;
 
     border-radius:50%;
 
@@ -882,6 +888,10 @@ section{
 .about-img img{
 
     width:280px;
+
+    height:280px;
+
+    object-fit:cover;
 
 }
 

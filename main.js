@@ -1,7 +1,92 @@
-var typed = new Typed(".text", {
-    strings: ["Frontend Developer", "YouTuber", "Web Developer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
+// ===== MUNCULKAN BODY (fix bug opacity:0 permanen) =====
+// Diletakkan paling atas & tidak bergantung ke library lain,
+// supaya body tetap muncul walau ada error di kode lain di bawah ini.
+document.body.style.opacity = 1;
+
+// ===== TYPED.JS (efek ketik di Home) =====
+// Dibungkus try/catch: kalau library Typed gagal/belum siap,
+// error-nya tidak akan menghentikan sisa script di bawah.
+try {
+    var typed = new Typed(".text", {
+        strings: ["Frontend Developer", "YouTuber", "Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+} catch (err) {
+    console.error('Typed.js gagal dijalankan:', err);
+}
+
+// ===== SCROLL EVENTS: sticky header, progress bar, back-to-top =====
+const header = document.querySelector('.header');
+const scrollProgress = document.querySelector('.scroll-progress');
+const backToTop = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', function () {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+    if (header) header.classList.toggle('sticky', scrollTop > 50);
+    if (scrollProgress) scrollProgress.style.width = scrollPercent + '%';
+
+    if (backToTop) {
+        if (scrollTop > 300) {
+            backToTop.style.opacity = 1;
+            backToTop.style.pointerEvents = 'auto';
+        } else {
+            backToTop.style.opacity = 0;
+            backToTop.style.pointerEvents = 'none';
+        }
+    }
 });
+
+// ===== ACTIVE NAV LINK SAAT SCROLL =====
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.navbar a');
+
+window.addEventListener('scroll', function () {
+    let current = '';
+    sections.forEach(function (section) {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navLinks.forEach(function (link) {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+        }
+    });
+});
+
+// ===== RIPPLE EFFECT PADA TOMBOL =====
+document.querySelectorAll('.btn-box, .btn-outline').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const ripple = document.createElement('span');
+        ripple.classList.add('ripple');
+        const rect = btn.getBoundingClientRect();
+        ripple.style.left = (e.clientX - rect.left) + 'px';
+        ripple.style.top = (e.clientY - rect.top) + 'px';
+        btn.appendChild(ripple);
+        setTimeout(function () { ripple.remove(); }, 600);
+    });
+});
+
+// ===== FORM CONTACT (belum terhubung ke backend/email) =====
+const contactForm = document.getElementById('contactForm');
+const formStatus = document.getElementById('formStatus');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        // Catatan: form ini belum terhubung ke server atau layanan email.
+        // Sambungkan ke backend sendiri, atau layanan seperti Formspree/EmailJS,
+        // supaya pesan benar-benar terkirim.
+        formStatus.textContent = 'Terima kasih! Form ini masih contoh tampilan, belum terhubung ke server.';
+        contactForm.reset();
+    });
+}
