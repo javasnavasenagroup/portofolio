@@ -23,6 +23,10 @@
 
 <body>
 
+    <!-- ================= SCROLL PROGRESS ================= -->
+
+    <div class="scroll-progress"></div>
+
     <!-- ================= HEADER ================= -->
 
     <header class="header">
@@ -33,7 +37,7 @@
 
         </a>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
 
             <a href="#home" class="active" style="--i:1">Home</a>
 
@@ -51,7 +55,15 @@
 
         </nav>
 
+        <button type="button" class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navbar">
+
+            <i class='bx bx-menu'></i>
+
+        </button>
+
     </header>
+
+    <div class="nav-overlay"></div>
 
 
 
@@ -157,7 +169,7 @@
 
     <div class="about-img">
 
-        <img src="logo-javasnavasena.png" width="120" height="120" loading="lazy" decoding="async" alt="Logo JAVASNAVASENA">
+        <img src="logo-javasnavasena.webp" width="120" height="120" loading="lazy" decoding="async" alt="Logo JAVASNAVASENA">
 
     </div>
 
@@ -688,75 +700,83 @@
             Tim profesional JAVASNAVASENA yang berkolaborasi
             untuk membangun solusi digital terbaik.
         </p>
+        <p class="team-identity">
+            Kelompok 3 &mdash; Kelas TRPL 3D &mdash; Program Studi Teknologi Rekayasa Perangkat Lunak &mdash;
+            Jurusan Bisnis dan Informatika &mdash; Politeknik Negeri Banyuwangi
+        </p>
     </div>
 
     <div class="team-container">
 
         <div class="team-card">
 
-            <img src="Moh. Jevon Attaillah.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Moh. Jevon Attaillah">
+            <img src="Moh. Jevon Attaillah.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Moh. Jevon Attaillah">
 
-            <h3>Ketua</h3>
+            <h3>Product Owner</h3>
 
             <span>Moh. Jevon Attaillah</span>
 
+            <small>NIM. 362458302035</small>
+
             <p>
-                Bertanggung jawab terhadap perencanaan,
-                koordinasi tim,
-                dan komunikasi dengan client.
+                Ketua Tim yang bertanggung jawab terhadap perencanaan,
+                koordinasi tim, dan komunikasi dengan client
+                sebagai Backend Developer & Full-Stack Developer.
             </p>
 
             <div class="team-social">
 
                 <a href="https://mjvnaaa.github.io/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
 
-                <a href="https://www.linkedin.com/in/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-jevon-90a486371/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
 
-                <a href="https://www.instagram.com/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.instagram.com/mjvnaaa/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
             </div>
 
         </div>
 
         <div class="team-card">
 
-            <img src="Virdan Andi Wardana.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Virdan Andi Wardana">
+            <img src="Salam Rizqi Mulia.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Salam Rizqi Mulia">
 
-            <h3>Anggota 1</h3>
-
-            <span>Virdan Andi Wardana</span>
-
-            <p>
-                Mengembangkan tampilan website
-                yang modern,
-                responsif,
-                dan interaktif.
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Salam Rizqi Mulia.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Salam Rizqi Mulia">
-
-            <h3>Anggota 2</h3>
+            <h3>Scrum Master</h3>
 
             <span>Salam Rizqi Mulia</span>
 
+            <small>NIM. 362458302041</small>
+
             <p>
-                Mengembangkan REST API,
-                Database,
-                Authentication,
-                dan Server.
+                Mengembangkan REST API, Database, Authentication,
+                dan Server-Side sebagai Backend Developer
+                & Full-Stack Developer.
+            </p>
+
+            <div class="team-social">
+
+                <a href="https://github.com/salambaee" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+
+                <a href="https://www.linkedin.com/in/salam-rizqi-mulia-37131b314/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="https://www.instagram.com/salambae_/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Virdan Andi Wardana.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Virdan Andi Wardana">
+
+            <h3>Development Team</h3>
+
+            <span>Virdan Andi Wardana</span>
+
+            <small>NIM. 362458302039</small>
+
+            <p>
+                Mengembangkan tampilan website yang modern,
+                responsif, dan interaktif sebagai
+                UI/UX Designer, Frontend Developer & Full-Stack Developer.
             </p>
 
             <div class="team-social">
@@ -773,26 +793,27 @@
 
         <div class="team-card">
 
-            <img src="Achmad Alfarizy Satriya Gautama.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Achmad Alfarizy Satriya Gautama">
+            <img src="Achmad Alfarizy Satriya Gautama.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Achmad Alfarizy Satriya Gautama">
 
-            <h3>Anggota 3</h3>
+            <h3>Development Team</h3>
 
-            <span>Achmad Alfarizy Satriya Gautama</span>
+            <span>Achmad Alfarizy Satriya Gautama (Faris)</span>
+
+            <small>NIM. 362458302147</small>
 
             <p>
-                Mendesain pengalaman pengguna
-                yang modern,
-                menarik,
-                dan mudah digunakan.
+                Mendesain pengalaman pengguna yang modern,
+                menarik, dan mudah digunakan sebagai
+                UI/UX Designer, Frontend Developer & Full-Stack Developer.
             </p>
 
             <div class="team-social">
 
-                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://github.com/ryzet" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
 
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/achmad-alfarizy-satriya-gautama-6271ab1b1/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
 
-                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.instagram.com/alfarizyes/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
 
             </div>
 
@@ -800,15 +821,18 @@
 
         <div class="team-card">
 
-            <img src="Nadhifah Afiyah Qurota'ain.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Nadhifah Afiyah Qurota'ain">
+            <img src="Nadhifah Afiyah Qurota'ain.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Nadhifah Afiyah Qurota'ain">
 
-            <h3>Anggota 4</h3>
+            <h3>Development Team</h3>
 
             <span>Nadhifah Afiyah Qurota'ain</span>
 
+            <small>NIM. 362458302100</small>
+
             <p>
-                Koordinator tim dan mendesain pengalaman pengguna
-                yang modern.
+                Menangani administrasi manajemen proyek
+                dan pengujian kualitas sebagai
+                Quality Assurance & Full-Stack Developer.
             </p>
 
             <div class="team-social">
@@ -825,16 +849,17 @@
 
         <div class="team-card">
 
-            <img src="Mohamad Faishal.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Mohamad Faishal">
+            <img src="Mohamad Faishal.webp" width="140" height="140" loading="lazy" decoding="async" alt="Foto Mohamad Faishal">
 
-            <h3>Anggota 5</h3>
+            <h3>Development Team</h3>
 
             <span>Mohamad Faishal</span>
 
-            <p>
-                Membuat tampilan sistem
-                yang modern dan menarik.
+            <small>NIM. 362258302060</small>
 
+            <p>
+                Membangun logika dan layanan sistem
+                sebagai Backend Developer & Full-Stack Developer.
             </p>
 
             <div class="team-social">
@@ -872,7 +897,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Company Profile">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="Company Profile">
 
             <div class="portfolio-layer">
 
@@ -897,7 +922,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="ReservZone">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="ReservZone">
 
             <div class="portfolio-layer">
 
@@ -922,7 +947,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Cine Booking">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="Cine Booking">
 
             <div class="portfolio-layer">
 
@@ -947,7 +972,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="E-Commerce">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="E-Commerce">
 
             <div class="portfolio-layer">
 
@@ -972,7 +997,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Inventory System">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="Inventory System">
 
             <div class="portfolio-layer">
 
@@ -997,7 +1022,7 @@
 
         <div class="portfolio-card">
 
-            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="POS System">
+            <img src="logo-javasnavasena.webp" loading="lazy" decoding="async" alt="POS System">
 
             <div class="portfolio-layer">
 
@@ -1248,7 +1273,8 @@
 
         <p class="copyright">
 
-            © 2026 JAVASNAVASENA.
+            © 2026 JAVASNAVASENA — Kelompok 3, TRPL 3D,
+            Politeknik Negeri Banyuwangi.
             All Rights Reserved.
 
         </p>

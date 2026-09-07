@@ -76,6 +76,52 @@ document.querySelectorAll('.btn-box, .btn-outline').forEach(function (btn) {
     });
 });
 
+// ===== MOBILE MENU (hamburger toggle) =====
+const menuToggle = document.querySelector('.menu-toggle');
+const navbar = document.querySelector('.navbar');
+const navOverlay = document.querySelector('.nav-overlay');
+
+function closeMenu() {
+    if (!navbar || !menuToggle) return;
+    navbar.classList.remove('active');
+    menuToggle.classList.remove('active');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('menu-open');
+}
+
+function openMenu() {
+    if (!navbar || !menuToggle) return;
+    navbar.classList.add('active');
+    menuToggle.classList.add('active');
+    menuToggle.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('menu-open');
+}
+
+if (menuToggle && navbar) {
+    menuToggle.addEventListener('click', function () {
+        const isOpen = navbar.classList.contains('active');
+        if (isOpen) {
+            closeMenu();
+        } else {
+            openMenu();
+        }
+    });
+
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+    });
+
+    if (navOverlay) {
+        navOverlay.addEventListener('click', closeMenu);
+    }
+
+    window.addEventListener('resize', function () {
+        if (window.innerWidth > 991) {
+            closeMenu();
+        }
+    });
+}
+
 // ===== FORM CONTACT (belum terhubung ke backend/email) =====
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');

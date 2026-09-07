@@ -21,9 +21,9 @@ html{
 body {
   /* Menggabungkan warna dasar gelap dengan 2 lingkaran pendaran cahaya (biru di kiri bawah, ungu di kanan atas) */
   background: 
-    radial-gradient(circle at 10% 70%, rgba(0, 168, 204, 0.25), transparent 45%),
-    radial-gradient(circle at 85% 20%, rgba(142, 68, 173, 0.25), transparent 50%),
-    #0d0f14; /* Warna dasar abu-abu gelap kehitaman seperti di gambar */
+    radial-gradient(circle at 10% 70%, rgba(0, 168, 204, 0.18), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(142, 68, 173, 0.18), transparent 50%),
+    #081b29; /* Selaras dengan --bg-color supaya tidak ada dua nuansa navy berbeda */
   
   background-attachment: fixed; /* Menjaga gradasi tetap di posisinya saat halaman di-scroll */
   color: #fff;
@@ -51,6 +51,65 @@ body {
     --text:#d9d9d9;
 
     --shadow:0 0 20px rgba(0,229,255,.35);
+
+    /* spacing & layout tokens (fluid, scale with viewport) */
+
+    --section-py:clamp(64px, 9vw, 110px);
+
+    --section-px:clamp(20px, 6vw, 120px);
+
+    --content-max:1360px;
+
+    --gap-lg:clamp(24px, 4vw, 40px);
+
+    --radius-lg:22px;
+
+}
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
+/* Batasi lebar konten utama di layar sangat lebar (>1600px) supaya
+   grid dan paragraf tidak melar tak wajar, tanpa mengubah struktur HTML */
+
+.about,
+
+.mission-container,
+
+.values-container,
+
+.services-container,
+
+.tech-grid,
+
+.workflow-container,
+
+.why-container,
+
+.team-container,
+
+.portfolio-container,
+
+.achievement-container,
+
+.testimonial-container,
+
+.contact-container,
+
+.stats{
+
+    max-width:var(--content-max);
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
@@ -84,9 +143,15 @@ body {
 
 section{
 
-    min-height:100vh;
+    padding:var(--section-py) var(--section-px);
 
-    padding:100px 10%;
+}
+
+/* Home tetap dibuat setinggi layar karena berfungsi sebagai hero */
+
+.home{
+
+    min-height:100vh;
 
 }
 
@@ -110,11 +175,13 @@ section{
 
     align-items:center;
 
-    padding:20px 10%;
+    padding:16px var(--section-px);
 
-    background:rgba(8,27,41,.85);
+    background:rgba(8,27,41,.75);
 
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(14px);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
 
     z-index:999;
 
@@ -124,7 +191,7 @@ section{
 
 .logo{
 
-    font-size:30px;
+    font-size:clamp(22px, 2.6vw, 30px);
 
     color:#fff;
 
@@ -133,6 +200,8 @@ section{
     text-decoration:none;
 
     letter-spacing:1px;
+
+    white-space:nowrap;
 
 }
 
@@ -148,7 +217,7 @@ section{
 
     align-items:center;
 
-    gap:30px;
+    gap:clamp(16px, 2.4vw, 30px);
 
 }
 
@@ -158,11 +227,13 @@ section{
 
     text-decoration:none;
 
-    font-size:17px;
+    font-size:16px;
 
     font-weight:500;
 
     transition:.3s;
+
+    white-space:nowrap;
 
 }
 
@@ -171,6 +242,152 @@ section{
 .navbar a.active{
 
     color:var(--main);
+
+}
+
+/* ===================================================
+    MOBILE MENU TOGGLE (hamburger)
+=================================================== */
+
+.menu-toggle{
+
+    display:none;
+
+    width:44px;
+
+    height:44px;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:transparent;
+
+    border:2px solid var(--main);
+
+    border-radius:12px;
+
+    color:var(--main);
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    flex-shrink:0;
+
+}
+
+.menu-toggle:hover{
+
+    background:var(--main);
+
+    color:#081b29;
+
+}
+
+.menu-toggle i{
+
+    transition:.3s;
+
+}
+
+.menu-toggle.active i::before{
+
+    content:"\ea0f"; /* bx-x */
+
+}
+
+.nav-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(4,12,19,.7);
+
+    backdrop-filter:blur(2px);
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:.35s;
+
+    z-index:997;
+
+}
+
+body.menu-open .nav-overlay{
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+body.menu-open{
+
+    overflow:hidden;
+
+}
+
+@media(max-width:991px){
+
+    .menu-toggle{
+
+        display:flex;
+
+    }
+
+    .navbar{
+
+        position:fixed;
+
+        top:0;
+
+        right:0;
+
+        height:100vh;
+
+        width:min(78vw, 320px);
+
+        background:#0a1f30;
+
+        border-left:1px solid rgba(255,255,255,.08);
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        justify-content:center;
+
+        gap:28px;
+
+        padding:100px 40px 40px;
+
+        transform:translateX(100%);
+
+        transition:transform .4s ease;
+
+        z-index:998;
+
+        box-shadow:-10px 0 40px rgba(0,0,0,.35);
+
+    }
+
+    .navbar.active{
+
+        transform:translateX(0);
+
+    }
+
+    .navbar a{
+
+        font-size:19px;
+
+    }
 
 }
 
@@ -198,7 +415,7 @@ section{
 
 .home-content h3{
 
-    font-size:30px;
+    font-size:clamp(20px, 2.6vw, 30px);
 
     color:var(--main);
 
@@ -208,7 +425,7 @@ section{
 
 .home-content h1{
 
-    font-size:65px;
+    font-size:clamp(36px, 6.2vw, 65px);
 
     line-height:1.1;
 
@@ -220,11 +437,13 @@ section{
 
     color:var(--text);
 
-    font-size:17px;
+    font-size:clamp(15px, 1.6vw, 17px);
 
     line-height:1.8;
 
     margin:25px 0;
+
+    max-width:560px;
 
 }
 
@@ -472,13 +691,23 @@ section{
 
     text-align:center;
 
-    margin-bottom:70px;
+    margin-bottom:60px;
+
+    max-width:640px;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
 .section-title h2{
 
-    font-size:48px;
+    font-size:clamp(28px, 4.4vw, 44px);
+
+    line-height:1.2;
+
+    font-weight:700;
 
 }
 
@@ -490,9 +719,11 @@ section{
 
 .section-title p{
 
-    margin-top:20px;
+    margin-top:16px;
 
     color:var(--text);
+
+    line-height:1.7;
 
 }
 
@@ -563,7 +794,7 @@ section{
 
 .about-text h2{
 
-    font-size:50px;
+    font-size:clamp(32px, 5vw, 50px);
 
     margin-bottom:15px;
 
@@ -911,27 +1142,27 @@ section{
 
 }
 
-.about-text h2{
-
-    font-size:38px;
-
-}
-
 .vision-box{
 
-    padding:30px;
+    padding:30px 24px;
 
 }
 
 .mission-card{
 
-    padding:30px;
+    padding:30px 22px;
 
 }
 
 .value-card{
 
-    padding:30px;
+    padding:30px 22px;
+
+}
+
+.team-card{
+
+    padding:30px 22px;
 
 }
 
@@ -1279,7 +1510,7 @@ section{
 
 .tech-grid{
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
 
 }
 
@@ -1301,13 +1532,27 @@ section{
 
 .services-container,
 
-.tech-grid,
-
 .workflow-container,
 
 .why-container{
 
     grid-template-columns:1fr;
+
+}
+
+.tech-grid{
+
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+
+}
+
+}
+
+@media(max-width:420px){
+
+.tech-grid{
+
+    grid-template-columns:repeat(2,1fr);
 
 }
 
@@ -1319,6 +1564,18 @@ section{
 .team{
 
     background:#081b29;
+
+}
+
+.team-identity{
+
+    margin-top:12px;
+
+    font-size:14px;
+
+    color:#8fa5b3;
+
+    letter-spacing:.2px;
 
 }
 
@@ -1397,6 +1654,20 @@ section{
     color:var(--main);
 
     font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+.team-card small{
+
+    display:block;
+
+    color:#8fa5b3;
+
+    font-size:13px;
+
+    letter-spacing:.3px;
 
     margin-bottom:18px;
 
@@ -1494,7 +1765,7 @@ section{
 
     width:100%;
 
-    height:320px;
+    height:clamp(220px, 32vw, 320px);
 
     object-fit:cover;
 
@@ -1552,7 +1823,7 @@ section{
 
 .portfolio-layer h3{
 
-    font-size:40px;
+    font-size:clamp(26px, 4vw, 40px);
 
     color:#ffffff;
 
@@ -2179,18 +2450,6 @@ section{
 
 @media(max-width:991px){
 
-    section{
-
-        padding:90px 7%;
-
-    }
-
-    .header{
-
-        padding:20px 7%;
-
-    }
-
     .contact-container{
 
         grid-template-columns:1fr;
@@ -2199,73 +2458,67 @@ section{
 
 }
 
-@media(max-width:768px){
+@media(max-width:900px){
 
     .home{
 
-        flex-direction:column;
+        flex-direction:column-reverse;
 
         text-align:center;
 
-        gap:50px;
+        gap:40px;
+
+        padding-top:40px;
 
     }
 
-    .home-content h1{
+    .home-content p{
 
-        font-size:45px;
+        margin-left:auto;
+
+        margin-right:auto;
+
+    }
+
+    .home-sci,
+
+    .home-button{
+
+        justify-content:center;
 
     }
 
-    .home-content h3{
+}
 
-        font-size:24px;
-
-    }
+@media(max-width:768px){
 
     .glowing-circle{
 
-        width:300px;
+        width:min(70vw, 300px);
 
-        height:300px;
+        height:min(70vw, 300px);
 
     }
 
     .glowing-circle::after{
 
-        width:270px;
+        width:calc(100% - 40px);
 
-        height:270px;
+        height:calc(100% - 40px);
 
     }
 
     .image{
 
-        width:250px;
+        width:calc(100% - 70px);
 
-        height:250px;
-
-    }
-
-    .navbar{
-
-        flex-wrap:wrap;
-
-        justify-content:center;
-
-        gap:15px;
+        height:calc(100% - 70px);
 
     }
 
 }
 
 @media(max-width:576px){
-
-    .section-title h2{
-
-        font-size:35px;
-
-    }
 
     .btn-box,
 
@@ -2283,9 +2536,61 @@ section{
 
     }
 
-    .logo{
+    .contact-form input,
 
-        font-size:24px;
+    .contact-form textarea{
+
+        padding:15px;
+
+    }
+
+}
+
+@media(max-width:420px){
+
+    .team-card,
+
+    .service-card,
+
+    .value-card,
+
+    .mission-card,
+
+    .why-card,
+
+    .achievement-card,
+
+    .testimonial-card{
+
+        padding:26px 20px;
+
+    }
+
+    .vision-box{
+
+        padding:26px 20px;
+
+    }
+
+    .stat-card{
+
+        padding:28px 20px;
+
+    }
+
+    .home-sci a,
+
+    .team-social a,
+
+    .contact-social a,
+
+    .footer-social a{
+
+        width:42px;
+
+        height:42px;
+
+        font-size:19px;
 
     }
 
@@ -2387,5 +2692,48 @@ body{
         opacity:0;
 
     }
+
+}
+
+/* =======================================================
+   ACCESSIBILITY: KEYBOARD FOCUS
+======================================================= */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible{
+
+    outline:2px solid var(--main);
+    outline-offset:3px;
+    border-radius:4px;
+
+}
+
+/* =======================================================
+   ACCESSIBILITY: REDUCED MOTION
+======================================================= */
+
+@media (prefers-reduced-motion: reduce){
+
+    *{
+
+        animation-duration:0.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:0.01ms !important;
+        scroll-behavior:auto !important;
+
+    }
+
+}
+
+/* =======================================================
+   FOOTER DIVIDER
+======================================================= */
+
+.footer{
+
+    position:relative;
+    border-top:1px solid rgba(255,255,255,.08);
 
 }
