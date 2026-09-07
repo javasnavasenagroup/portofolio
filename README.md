@@ -1,3 +1,1373 @@
+D:\MATKUL\SEMESTER 4\pbl\PortofolioJavasnavasena\index.html
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="JAVASNAVASENA - Tim Software Development yang bergerak di bidang Website, Mobile Application, UI/UX Design, Backend Development, dan Cloud Deployment.">
+
+    <title>JAVASNAVASENA | Software Development Team</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+
+            JAVASNAVASENA
+
+        </a>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active" style="--i:1">Home</a>
+
+            <a href="#about" style="--i:2">About</a>
+
+            <a href="#services" style="--i:3">Services</a>
+
+            <a href="#skills" style="--i:4">Skills</a>
+
+            <a href="#team" style="--i:5">Team</a>
+
+            <a href="#portfolio" style="--i:6">Portfolio</a>
+
+            <a href="#contact" style="--i:7">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Welcome To</h3>
+
+            <h1>JAVASNAVASENA</h1>
+
+            <h3>
+
+                We Are
+
+                <span class="text"></span>
+
+            </h3>
+
+            <p>
+
+                JAVASNAVASENA merupakan tim Software Development yang bergerak di bidang
+
+                Website Development,
+
+                Mobile Application,
+
+                UI/UX Design,
+
+                Backend Development,
+
+                API Integration,
+
+                Cloud Deployment,
+
+                serta Digital Solution.
+
+                Kami berkomitmen membangun solusi digital yang modern,
+
+                cepat,
+
+                aman,
+
+                dan fleksibel.
+
+            </p>
+
+
+
+            <div class="home-sci">
+    <a href="https://github.com/javasnavasenagroup" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+    <a href="https://www.instagram.com/javasnavasena?igsh=MTU3c2d0MnVrMnV4NQ==" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
+</div>
+
+            <div class="home-button">
+
+                <a href="#about" class="btn-box">
+
+                    Explore More
+
+                </a>
+
+                <a href="#portfolio" class="btn-outline">
+
+                    Our Project
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="home-image">
+
+            <div class="glowing-circle">
+
+                <span></span>
+
+                <span></span>
+
+                <div class="image">
+
+                    <img src="logo-javasnavasenaUTAMA.png" alt="Logo JAVASNAVASENA">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- ================= END HOME ================= -->
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-img">
+
+        <img src="logo-javasnavasena.png" width="120" height="120" loading="lazy" decoding="async" alt="Logo JAVASNAVASENA">
+
+    </div>
+
+    <div class="about-text">
+
+        <h2>About <span>Us</span></h2>
+
+        <h4>Software Development Team</h4>
+
+        <p>
+
+            JAVASNAVASENA merupakan tim Software Development yang dibentuk untuk
+            menciptakan solusi digital modern yang inovatif, responsif, dan scalable.
+            Kami memiliki semangat kolaborasi, kreativitas, serta profesionalisme
+            dalam mengembangkan Website, Mobile Application, UI/UX Design,
+            API Development, Cloud Computing, hingga Database Management.
+
+            <br><br>
+
+            Kami percaya bahwa teknologi bukan hanya tentang membuat aplikasi,
+            tetapi bagaimana memberikan solusi yang berdampak bagi masyarakat,
+            bisnis, maupun institusi pendidikan.
+
+        </p>
+
+        <a href="#services" class="btn-box">
+            Explore Services
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= VISION ================= -->
+
+<section class="vision">
+
+    <div class="section-title">
+
+        <h2>Our <span>Vision</span></h2>
+
+    </div>
+
+    <div class="vision-box">
+
+        <i class='bx bx-bulb'></i>
+
+        <h3>Vision</h3>
+
+        <p>
+
+            Menjadi Software Development Team yang inovatif,
+            profesional, dan mampu menghasilkan solusi digital
+            berkualitas tinggi yang bermanfaat bagi masyarakat.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= MISSION ================= -->
+
+<section class="mission">
+
+    <div class="section-title">
+
+        <h2>Our <span>Mission</span></h2>
+
+    </div>
+
+    <div class="mission-container">
+
+        <div class="mission-card">
+
+            <i class='bx bx-code-alt'></i>
+
+            <h3>Development</h3>
+
+            <p>
+
+                Mengembangkan aplikasi yang modern,
+                responsive, scalable,
+                serta mengikuti standar industri.
+
+            </p>
+
+        </div>
+
+        <div class="mission-card">
+
+            <i class='bx bx-group'></i>
+
+            <h3>Collaboration</h3>
+
+            <p>
+
+                Membangun budaya kerja sama,
+                komunikasi,
+                dan kolaborasi yang solid
+                dalam setiap project.
+
+            </p>
+
+        </div>
+
+        <div class="mission-card">
+
+            <i class='bx bx-rocket'></i>
+
+            <h3>Innovation</h3>
+
+            <p>
+
+                Selalu berinovasi mengikuti perkembangan
+                teknologi terbaru untuk memberikan
+                solusi digital terbaik.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CORE VALUES ================= -->
+
+<section class="values">
+
+    <div class="section-title">
+
+        <h2>Core <span>Values</span></h2>
+
+    </div>
+
+    <div class="values-container">
+
+        <div class="value-card">
+
+            <i class='bx bx-shield-quarter'></i>
+
+            <h3>Integrity</h3>
+
+            <p>
+
+                Mengutamakan kejujuran,
+                tanggung jawab,
+                dan profesionalisme.
+
+            </p>
+
+        </div>
+
+        <div class="value-card">
+
+            <i class='bx bx-brain'></i>
+
+            <h3>Creativity</h3>
+
+            <p>
+
+                Menghasilkan solusi kreatif
+                dengan pendekatan teknologi modern.
+
+            </p>
+
+        </div>
+
+        <div class="value-card">
+
+            <i class='bx bx-network-chart'></i>
+
+            <h3>Collaboration</h3>
+
+            <p>
+
+                Bekerja sebagai satu tim
+                untuk mencapai hasil terbaik.
+
+            </p>
+
+        </div>
+
+        <div class="value-card">
+
+            <i class='bx bx-medal'></i>
+
+            <h3>Quality</h3>
+
+            <p>
+
+                Selalu memberikan hasil
+                dengan kualitas terbaik.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="stat-card">
+
+        <h2>15+</h2>
+
+        <p>Completed Projects</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>10+</h2>
+
+        <p>Technologies</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>6</h2>
+
+        <p>Team Members</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>100%</h2>
+
+        <p>Commitment</p>
+
+    </div>
+
+</section>
+
+<!-- ================= END ABOUT ================= -->
+ <!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+        <h2>Our <span>Services</span></h2>
+        <p>
+            Kami menyediakan berbagai layanan pengembangan perangkat lunak
+            untuk membantu bisnis dan organisasi berkembang di era digital.
+        </p>
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>
+                Website modern, responsive, cepat,
+                dan SEO Friendly.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-mobile-alt'></i>
+            <h3>Mobile Development</h3>
+            <p>
+                Android & Flutter Application
+                dengan performa tinggi.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-palette'></i>
+            <h3>UI / UX Design</h3>
+            <p>
+                Mendesain antarmuka yang modern,
+                sederhana,
+                dan nyaman digunakan.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-server'></i>
+            <h3>Backend Development</h3>
+            <p>
+                REST API,
+                Authentication,
+                Database,
+                Microservice.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-data'></i>
+            <h3>Database Design</h3>
+            <p>
+                MySQL,
+                PostgreSQL,
+                Firebase,
+                MongoDB.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-cloud'></i>
+            <h3>Cloud Deployment</h3>
+            <p>
+                Vercel,
+                Netlify,
+                Docker,
+                VPS,
+                Cloud Server.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-shield-quarter'></i>
+            <h3>Cyber Security</h3>
+            <p>
+                Implementasi keamanan
+                aplikasi dan website.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <i class='bx bx-support'></i>
+            <h3>Maintenance</h3>
+            <p>
+                Maintenance,
+                monitoring,
+                update,
+                dan support.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TECH STACK ================= -->
+
+<section class="skills" id="skills">
+
+    <div class="section-title">
+        <h2>Tech <span>Stack</span></h2>
+        <p>
+            Teknologi yang kami gunakan dalam membangun solusi digital.
+        </p>
+    </div>
+
+    <div class="tech-grid">
+
+        <div class="tech-card">
+            <i class='bx bxl-html5'></i>
+            <h4>HTML5</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-css3'></i>
+            <h4>CSS3</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-javascript'></i>
+            <h4>JavaScript</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-php'></i>
+            <h4>PHP</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-nodejs'></i>
+            <h4>NodeJS</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-react'></i>
+            <h4>React</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-flutter'></i>
+            <h4>Flutter</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-firebase'></i>
+            <h4>Firebase</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bxl-github'></i>
+            <h4>GitHub</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bx-data'></i>
+            <h4>MySQL</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bx-server'></i>
+            <h4>Laravel</h4>
+        </div>
+
+        <div class="tech-card">
+            <i class='bx bx-cloud'></i>
+            <h4>Docker</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= DEVELOPMENT PROCESS ================= -->
+
+<section class="workflow">
+
+    <div class="section-title">
+        <h2>Development <span>Process</span></h2>
+    </div>
+
+    <div class="workflow-container">
+
+        <div class="workflow-card">
+            <span>01</span>
+            <h3>Requirement</h3>
+            <p>
+                Analisis kebutuhan client dan penyusunan solusi terbaik.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>02</span>
+            <h3>Design</h3>
+            <p>
+                Mendesain UI/UX modern menggunakan Figma.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>03</span>
+            <h3>Development</h3>
+            <p>
+                Implementasi Frontend, Backend, Database, dan API.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>04</span>
+            <h3>Testing</h3>
+            <p>
+                Quality Assurance dan pengujian seluruh fitur.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>05</span>
+            <h3>Deployment</h3>
+            <p>
+                Publish aplikasi ke cloud server atau hosting.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why">
+
+    <div class="section-title">
+        <h2>Why Choose <span>JAVASNAVASENA</span></h2>
+    </div>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <i class='bx bx-check-circle'></i>
+            <h3>Professional Team</h3>
+            <p>
+                Tim yang berpengalaman dan memiliki semangat belajar tinggi.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <i class='bx bx-trophy'></i>
+            <h3>Quality First</h3>
+            <p>
+                Mengutamakan kualitas pada setiap project yang dikerjakan.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <i class='bx bx-time-five'></i>
+            <h3>On Time</h3>
+            <p>
+                Berkomitmen menyelesaikan project sesuai timeline.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <i class='bx bx-headphone'></i>
+            <h3>Support</h3>
+            <p>
+                Memberikan dukungan setelah project selesai.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= END SERVICES ================= -->
+ <!-- ================= TEAM ================= -->
+
+<section class="team" id="team">
+
+    <div class="section-title">
+        <h2>Meet Our <span>Team</span></h2>
+        <p>
+            Tim profesional JAVASNAVASENA yang berkolaborasi
+            untuk membangun solusi digital terbaik.
+        </p>
+    </div>
+
+    <div class="team-container">
+
+        <div class="team-card">
+
+            <img src="Moh. Jevon Attaillah.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Moh. Jevon Attaillah">
+
+            <h3>Ketua</h3>
+
+            <span>Moh. Jevon Attaillah</span>
+
+            <p>
+                Bertanggung jawab terhadap perencanaan,
+                koordinasi tim,
+                dan komunikasi dengan client.
+            </p>
+
+            <div class="team-social">
+
+                <a href="https://mjvnaaa.github.io/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+
+                <a href="https://www.linkedin.com/in/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="https://www.instagram.com/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Virdan Andi Wardana.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Virdan Andi Wardana">
+
+            <h3>Anggota 1</h3>
+
+            <span>Virdan Andi Wardana</span>
+
+            <p>
+                Mengembangkan tampilan website
+                yang modern,
+                responsif,
+                dan interaktif.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Salam Rizqi Mulia.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Salam Rizqi Mulia">
+
+            <h3>Anggota 2</h3>
+
+            <span>Salam Rizqi Mulia</span>
+
+            <p>
+                Mengembangkan REST API,
+                Database,
+                Authentication,
+                dan Server.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Achmad Alfarizy Satriya Gautama.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Achmad Alfarizy Satriya Gautama">
+
+            <h3>Anggota 3</h3>
+
+            <span>Achmad Alfarizy Satriya Gautama</span>
+
+            <p>
+                Mendesain pengalaman pengguna
+                yang modern,
+                menarik,
+                dan mudah digunakan.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Nadhifah Afiyah Qurota'ain.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Nadhifah Afiyah Qurota'ain">
+
+            <h3>Anggota 4</h3>
+
+            <span>Nadhifah Afiyah Qurota'ain</span>
+
+            <p>
+                Koordinator tim dan mendesain pengalaman pengguna
+                yang modern.
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="team-card">
+
+            <img src="Mohamad Faishal.png" width="140" height="140" loading="lazy" decoding="async" alt="Foto Mohamad Faishal">
+
+            <h3>Anggota 5</h3>
+
+            <span>Mohamad Faishal</span>
+
+            <p>
+                Membuat tampilan sistem
+                yang modern dan menarik.
+
+            </p>
+
+            <div class="team-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio" id="portfolio">
+
+    <div class="section-title">
+
+        <h2>Latest <span>Projects</span></h2>
+
+        <p>
+            Beberapa project yang telah dikembangkan
+            oleh tim JAVASNAVASENA.
+        </p>
+
+    </div>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Company Profile">
+
+            <div class="portfolio-layer">
+
+                <h3>Company Profile</h3>
+
+                <p>
+
+                    Website modern untuk perusahaan,
+                    lengkap dengan CMS.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="ReservZone">
+
+            <div class="portfolio-layer">
+
+                <h3>ReservZone</h3>
+
+                <p>
+
+                    Sistem Reservasi Lapangan
+                    berbasis Flutter.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Cine Booking">
+
+            <div class="portfolio-layer">
+
+                <h3>Cine Booking</h3>
+
+                <p>
+
+                    Aplikasi pemesanan tiket bioskop
+                    berbasis Flutter.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="E-Commerce">
+
+            <div class="portfolio-layer">
+
+                <h3>E-Commerce</h3>
+
+                <p>
+
+                    Website penjualan online
+                    lengkap dengan pembayaran.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="Inventory System">
+
+            <div class="portfolio-layer">
+
+                <h3>Inventory System</h3>
+
+                <p>
+
+                    Sistem manajemen inventaris
+                    berbasis web.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <img src="logo-javasnavasena.png" loading="lazy" decoding="async" alt="POS System">
+
+            <div class="portfolio-layer">
+
+                <h3>POS System</h3>
+
+                <p>
+
+                    Point Of Sale modern
+                    untuk UMKM.
+
+                </p>
+
+                <a href="#">
+
+                    <i class='bx bx-link-external'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= END TEAM & PORTFOLIO ================= -->
+ <!-- ================= ACHIEVEMENTS ================= -->
+
+<section class="achievement">
+
+    <div class="section-title">
+        <h2>Our <span>Achievements</span></h2>
+        <p>
+            Pencapaian yang menjadi motivasi kami untuk terus berkembang.
+        </p>
+    </div>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            <i class='bx bx-code-block'></i>
+            <h2>25+</h2>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class='bx bx-group'></i>
+            <h2>6</h2>
+            <p>Team Members</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class='bx bx-medal'></i>
+            <h2>12+</h2>
+            <p>Technologies</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class='bx bx-smile'></i>
+            <h2>100%</h2>
+            <p>Client Satisfaction</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="testimonial">
+
+    <div class="section-title">
+        <h2>What They <span>Say</span></h2>
+    </div>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <i class='bx bxs-quote-alt-left'></i>
+
+            <p>
+
+                JAVASNAVASENA memberikan solusi yang cepat,
+                profesional,
+                dan mudah dikembangkan.
+
+            </p>
+
+            <h3>Future Client</h3>
+
+            <span>Company Owner</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <i class='bx bxs-quote-alt-left'></i>
+
+            <p>
+
+                Tim memiliki komunikasi yang baik,
+                kualitas coding rapi,
+                dan tepat waktu.
+
+            </p>
+
+            <h3>Future Partner</h3>
+
+            <span>Startup Founder</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <i class='bx bxs-quote-alt-left'></i>
+
+            <p>
+
+                Sangat direkomendasikan untuk
+                pengembangan Website,
+                Mobile Apps,
+                dan Digital Solution.
+
+            </p>
+
+            <h3>Future Customer</h3>
+
+            <span>Business Owner</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+
+        <h2>Contact <span>Us</span></h2>
+
+        <p>
+            Mari berdiskusi dan wujudkan solusi digital bersama JAVASNAVASENA.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Let's Build Something Great Together.</h3>
+
+            <p>
+                Hubungi kami melalui informasi berikut.
+            </p>
+
+            <div class="contact-item">
+
+                <i class='bx bx-envelope'></i>
+
+                <span>javasnavasena@gmail.com</span>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class='bx bx-phone'></i>
+
+                <span>+62 881-0261-32814</span>
+
+            </div>
+
+            <div class="contact-item">
+
+                <i class='bx bx-map'></i>
+
+                <span>Banyuwangi, Indonesia</span>
+
+            </div>
+
+            <div class="contact-social">
+
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+
+            </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            <input type="email" name="email" placeholder="Email Address" required>
+
+            <input type="text" name="subject" placeholder="Subject" required>
+
+            <textarea rows="8" name="message" placeholder="Write Your Message" required></textarea>
+
+            <button type="submit" class="btn-box">
+                Send Message
+            </button>
+
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>JAVASNAVASENA</h2>
+
+        <p>
+
+            Innovating Through Code,
+            Building Tomorrow Together.
+
+        </p>
+
+        <div class="footer-social">
+
+            <a href="#"><i class='bx bxl-github'></i></a>
+
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 JAVASNAVASENA.
+            All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- ================= BACK TO TOP ================= -->
+
+<a href="#home" class="back-to-top">
+
+    <i class='bx bx-up-arrow-alt'></i>
+
+</a>
+
+<!-- ================= SCRIPT ================= -->
+
+<script src="main.js" defer></script>
+
+</body>
+
+</html>
+
+D:\MATKUL\SEMESTER 4\pbl\PortofolioJavasnavasena\main.js
+// ===== MUNCULKAN BODY (fix bug opacity:0 permanen) =====
+// Diletakkan paling atas & tidak bergantung ke library lain,
+// supaya body tetap muncul walau ada error di kode lain di bawah ini.
+document.body.style.opacity = 1;
+
+// ===== TYPED.JS (efek ketik di Home) =====
+// Dibungkus try/catch: kalau library Typed gagal/belum siap,
+// error-nya tidak akan menghentikan sisa script di bawah.
+try {
+    var typed = new Typed(".text", {
+        strings: ["Frontend Developer", "YouTuber", "Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+} catch (err) {
+    console.error('Typed.js gagal dijalankan:', err);
+}
+
+// ===== SCROLL EVENTS: sticky header, progress bar, back-to-top =====
+const header = document.querySelector('.header');
+const scrollProgress = document.querySelector('.scroll-progress');
+const backToTop = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', function () {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+    if (header) header.classList.toggle('sticky', scrollTop > 50);
+    if (scrollProgress) scrollProgress.style.width = scrollPercent + '%';
+
+    if (backToTop) {
+        if (scrollTop > 300) {
+            backToTop.style.opacity = 1;
+            backToTop.style.pointerEvents = 'auto';
+        } else {
+            backToTop.style.opacity = 0;
+            backToTop.style.pointerEvents = 'none';
+        }
+    }
+});
+
+// ===== ACTIVE NAV LINK SAAT SCROLL =====
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.navbar a');
+
+window.addEventListener('scroll', function () {
+    let current = '';
+    sections.forEach(function (section) {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navLinks.forEach(function (link) {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+            link.classList.add('active');
+        }
+    });
+});
+
+// ===== RIPPLE EFFECT PADA TOMBOL =====
+document.querySelectorAll('.btn-box, .btn-outline').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const ripple = document.createElement('span');
+        ripple.classList.add('ripple');
+        const rect = btn.getBoundingClientRect();
+        ripple.style.left = (e.clientX - rect.left) + 'px';
+        ripple.style.top = (e.clientY - rect.top) + 'px';
+        btn.appendChild(ripple);
+        setTimeout(function () { ripple.remove(); }, 600);
+    });
+});
+
+// ===== FORM CONTACT (belum terhubung ke backend/email) =====
+const contactForm = document.getElementById('contactForm');
+const formStatus = document.getElementById('formStatus');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        // Catatan: form ini belum terhubung ke server atau layanan email.
+        // Sambungkan ke backend sendiri, atau layanan seperti Formspree/EmailJS,
+        // supaya pesan benar-benar terkirim.
+        formStatus.textContent = 'Terima kasih! Form ini masih contoh tampilan, belum terhubung ke server.';
+        contactForm.reset();
+    });
+}
+
 D:\MATKUL\SEMESTER 4\pbl\PortofolioJavasnavasena\stylesheet.css
 /* ======================================================= */
 
@@ -540,6 +1910,10 @@ section{
 
     width:380px;
 
+    height:380px;
+
+    object-fit:cover;
+
     border-radius:50%;
 
     border:6px solid var(--main);
@@ -885,6 +2259,10 @@ section{
 .about-img img{
 
     width:280px;
+
+    height:280px;
+
+    object-fit:cover;
 
 }
 
@@ -2381,1373 +3759,5 @@ body{
 
     }
 
-}
-D:\MATKUL\SEMESTER 4\pbl\PortofolioJavasnavasena\main.js
-// ===== MUNCULKAN BODY (fix bug opacity:0 permanen) =====
-// Diletakkan paling atas & tidak bergantung ke library lain,
-// supaya body tetap muncul walau ada error di kode lain di bawah ini.
-document.body.style.opacity = 1;
-
-// ===== TYPED.JS (efek ketik di Home) =====
-// Dibungkus try/catch: kalau library Typed gagal/belum siap,
-// error-nya tidak akan menghentikan sisa script di bawah.
-try {
-    var typed = new Typed(".text", {
-        strings: ["Frontend Developer", "YouTuber", "Web Developer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-    });
-} catch (err) {
-    console.error('Typed.js gagal dijalankan:', err);
-}
-
-// ===== SCROLL EVENTS: sticky header, progress bar, back-to-top =====
-const header = document.querySelector('.header');
-const scrollProgress = document.querySelector('.scroll-progress');
-const backToTop = document.querySelector('.back-to-top');
-
-window.addEventListener('scroll', function () {
-    const scrollTop = window.scrollY;
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-
-    if (header) header.classList.toggle('sticky', scrollTop > 50);
-    if (scrollProgress) scrollProgress.style.width = scrollPercent + '%';
-
-    if (backToTop) {
-        if (scrollTop > 300) {
-            backToTop.style.opacity = 1;
-            backToTop.style.pointerEvents = 'auto';
-        } else {
-            backToTop.style.opacity = 0;
-            backToTop.style.pointerEvents = 'none';
-        }
-    }
-});
-
-// ===== ACTIVE NAV LINK SAAT SCROLL =====
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.navbar a');
-
-window.addEventListener('scroll', function () {
-    let current = '';
-    sections.forEach(function (section) {
-        const sectionTop = section.offsetTop - 100;
-        if (window.scrollY >= sectionTop) {
-            current = section.getAttribute('id');
-        }
-    });
-
-    navLinks.forEach(function (link) {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === '#' + current) {
-            link.classList.add('active');
-        }
-    });
-});
-
-// ===== RIPPLE EFFECT PADA TOMBOL =====
-document.querySelectorAll('.btn-box, .btn-outline').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-        const ripple = document.createElement('span');
-        ripple.classList.add('ripple');
-        const rect = btn.getBoundingClientRect();
-        ripple.style.left = (e.clientX - rect.left) + 'px';
-        ripple.style.top = (e.clientY - rect.top) + 'px';
-        btn.appendChild(ripple);
-        setTimeout(function () { ripple.remove(); }, 600);
-    });
-});
-
-// ===== FORM CONTACT (belum terhubung ke backend/email) =====
-const contactForm = document.getElementById('contactForm');
-const formStatus = document.getElementById('formStatus');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        // Catatan: form ini belum terhubung ke server atau layanan email.
-        // Sambungkan ke backend sendiri, atau layanan seperti Formspree/EmailJS,
-        // supaya pesan benar-benar terkirim.
-        formStatus.textContent = 'Terima kasih! Form ini masih contoh tampilan, belum terhubung ke server.';
-        contactForm.reset();
-    });
-}
-D:\MATKUL\SEMESTER 4\pbl\PortofolioJavasnavasena\index.html
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="JAVASNAVASENA - Tim Software Development yang bergerak di bidang Website, Mobile Application, UI/UX Design, Backend Development, dan Cloud Deployment.">
-
-    <title>JAVASNAVASENA | Software Development Team</title>
-
-    <link rel="stylesheet" href="stylesheet.css">
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js" defer></script>
-
-</head>
-
-<body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header class="header">
-
-        <a href="#home" class="logo">
-
-            JAVASNAVASENA
-
-        </a>
-
-        <nav class="navbar">
-
-            <a href="#home" class="active" style="--i:1">Home</a>
-
-            <a href="#about" style="--i:2">About</a>
-
-            <a href="#services" style="--i:3">Services</a>
-
-            <a href="#skills" style="--i:4">Skills</a>
-
-            <a href="#team" style="--i:5">Team</a>
-
-            <a href="#portfolio" style="--i:6">Portfolio</a>
-
-            <a href="#contact" style="--i:7">Contact</a>
-
-        </nav>
-
-    </header>
-
-
-
-    <!-- ================= HOME ================= -->
-
-    <section class="home" id="home">
-
-        <div class="home-content">
-
-            <h3>Welcome To</h3>
-
-            <h1>JAVASNAVASENA</h1>
-
-            <h3>
-
-                We Are
-
-                <span class="text"></span>
-
-            </h3>
-
-            <p>
-
-                JAVASNAVASENA merupakan tim Software Development yang bergerak di bidang
-
-                Website Development,
-
-                Mobile Application,
-
-                UI/UX Design,
-
-                Backend Development,
-
-                API Integration,
-
-                Cloud Deployment,
-
-                serta Digital Solution.
-
-                Kami berkomitmen membangun solusi digital yang modern,
-
-                cepat,
-
-                aman,
-
-                dan fleksibel.
-
-            </p>
-
-
-
-            <div class="home-sci">
-    <a href="https://github.com/javasnavasenagroup" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
-    <a href="https://www.instagram.com/javasnavasena?igsh=MTU3c2d0MnVrMnV4NQ==" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
-    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
-</div>
-
-            <div class="home-button">
-
-                <a href="#about" class="btn-box">
-
-                    Explore More
-
-                </a>
-
-                <a href="#portfolio" class="btn-outline">
-
-                    Our Project
-
-                </a>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="home-image">
-
-            <div class="glowing-circle">
-
-                <span></span>
-
-                <span></span>
-
-                <div class="image">
-
-                    <img src="logo-javasnavasenaUTAMA.png" alt="Logo JAVASNAVASENA">
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-<!-- ================= END HOME ================= -->
-<!-- ================= ABOUT ================= -->
-
-<section class="about" id="about">
-
-    <div class="about-img">
-
-        <img src="logo-javasnavasena.png" alt="Logo JAVASNAVASENA">
-
-    </div>
-
-    <div class="about-text">
-
-        <h2>About <span>Us</span></h2>
-
-        <h4>Software Development Team</h4>
-
-        <p>
-
-            JAVASNAVASENA merupakan tim Software Development yang dibentuk untuk
-            menciptakan solusi digital modern yang inovatif, responsif, dan scalable.
-            Kami memiliki semangat kolaborasi, kreativitas, serta profesionalisme
-            dalam mengembangkan Website, Mobile Application, UI/UX Design,
-            API Development, Cloud Computing, hingga Database Management.
-
-            <br><br>
-
-            Kami percaya bahwa teknologi bukan hanya tentang membuat aplikasi,
-            tetapi bagaimana memberikan solusi yang berdampak bagi masyarakat,
-            bisnis, maupun institusi pendidikan.
-
-        </p>
-
-        <a href="#services" class="btn-box">
-            Explore Services
-        </a>
-
-    </div>
-
-</section>
-
-<!-- ================= VISION ================= -->
-
-<section class="vision">
-
-    <div class="section-title">
-
-        <h2>Our <span>Vision</span></h2>
-
-    </div>
-
-    <div class="vision-box">
-
-        <i class='bx bx-bulb'></i>
-
-        <h3>Vision</h3>
-
-        <p>
-
-            Menjadi Software Development Team yang inovatif,
-            profesional, dan mampu menghasilkan solusi digital
-            berkualitas tinggi yang bermanfaat bagi masyarakat.
-
-        </p>
-
-    </div>
-
-</section>
-
-<!-- ================= MISSION ================= -->
-
-<section class="mission">
-
-    <div class="section-title">
-
-        <h2>Our <span>Mission</span></h2>
-
-    </div>
-
-    <div class="mission-container">
-
-        <div class="mission-card">
-
-            <i class='bx bx-code-alt'></i>
-
-            <h3>Development</h3>
-
-            <p>
-
-                Mengembangkan aplikasi yang modern,
-                responsive, scalable,
-                serta mengikuti standar industri.
-
-            </p>
-
-        </div>
-
-        <div class="mission-card">
-
-            <i class='bx bx-group'></i>
-
-            <h3>Collaboration</h3>
-
-            <p>
-
-                Membangun budaya kerja sama,
-                komunikasi,
-                dan kolaborasi yang solid
-                dalam setiap project.
-
-            </p>
-
-        </div>
-
-        <div class="mission-card">
-
-            <i class='bx bx-rocket'></i>
-
-            <h3>Innovation</h3>
-
-            <p>
-
-                Selalu berinovasi mengikuti perkembangan
-                teknologi terbaru untuk memberikan
-                solusi digital terbaik.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= CORE VALUES ================= -->
-
-<section class="values">
-
-    <div class="section-title">
-
-        <h2>Core <span>Values</span></h2>
-
-    </div>
-
-    <div class="values-container">
-
-        <div class="value-card">
-
-            <i class='bx bx-shield-quarter'></i>
-
-            <h3>Integrity</h3>
-
-            <p>
-
-                Mengutamakan kejujuran,
-                tanggung jawab,
-                dan profesionalisme.
-
-            </p>
-
-        </div>
-
-        <div class="value-card">
-
-            <i class='bx bx-brain'></i>
-
-            <h3>Creativity</h3>
-
-            <p>
-
-                Menghasilkan solusi kreatif
-                dengan pendekatan teknologi modern.
-
-            </p>
-
-        </div>
-
-        <div class="value-card">
-
-            <i class='bx bx-network-chart'></i>
-
-            <h3>Collaboration</h3>
-
-            <p>
-
-                Bekerja sebagai satu tim
-                untuk mencapai hasil terbaik.
-
-            </p>
-
-        </div>
-
-        <div class="value-card">
-
-            <i class='bx bx-medal'></i>
-
-            <h3>Quality</h3>
-
-            <p>
-
-                Selalu memberikan hasil
-                dengan kualitas terbaik.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= STATISTICS ================= -->
-
-<section class="stats">
-
-    <div class="stat-card">
-
-        <h2>15+</h2>
-
-        <p>Completed Projects</p>
-
-    </div>
-
-    <div class="stat-card">
-
-        <h2>10+</h2>
-
-        <p>Technologies</p>
-
-    </div>
-
-    <div class="stat-card">
-
-        <h2>6</h2>
-
-        <p>Team Members</p>
-
-    </div>
-
-    <div class="stat-card">
-
-        <h2>100%</h2>
-
-        <p>Commitment</p>
-
-    </div>
-
-</section>
-
-<!-- ================= END ABOUT ================= -->
- <!-- ================= SERVICES ================= -->
-
-<section class="services" id="services">
-
-    <div class="section-title">
-        <h2>Our <span>Services</span></h2>
-        <p>
-            Kami menyediakan berbagai layanan pengembangan perangkat lunak
-            untuk membantu bisnis dan organisasi berkembang di era digital.
-        </p>
-    </div>
-
-    <div class="services-container">
-
-        <div class="service-card">
-            <i class='bx bx-code-alt'></i>
-            <h3>Web Development</h3>
-            <p>
-                Website modern, responsive, cepat,
-                dan SEO Friendly.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-mobile-alt'></i>
-            <h3>Mobile Development</h3>
-            <p>
-                Android & Flutter Application
-                dengan performa tinggi.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-palette'></i>
-            <h3>UI / UX Design</h3>
-            <p>
-                Mendesain antarmuka yang modern,
-                sederhana,
-                dan nyaman digunakan.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-server'></i>
-            <h3>Backend Development</h3>
-            <p>
-                REST API,
-                Authentication,
-                Database,
-                Microservice.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-data'></i>
-            <h3>Database Design</h3>
-            <p>
-                MySQL,
-                PostgreSQL,
-                Firebase,
-                MongoDB.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-cloud'></i>
-            <h3>Cloud Deployment</h3>
-            <p>
-                Vercel,
-                Netlify,
-                Docker,
-                VPS,
-                Cloud Server.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-shield-quarter'></i>
-            <h3>Cyber Security</h3>
-            <p>
-                Implementasi keamanan
-                aplikasi dan website.
-            </p>
-        </div>
-
-        <div class="service-card">
-            <i class='bx bx-support'></i>
-            <h3>Maintenance</h3>
-            <p>
-                Maintenance,
-                monitoring,
-                update,
-                dan support.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= TECH STACK ================= -->
-
-<section class="skills" id="skills">
-
-    <div class="section-title">
-        <h2>Tech <span>Stack</span></h2>
-        <p>
-            Teknologi yang kami gunakan dalam membangun solusi digital.
-        </p>
-    </div>
-
-    <div class="tech-grid">
-
-        <div class="tech-card">
-            <i class='bx bxl-html5'></i>
-            <h4>HTML5</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-css3'></i>
-            <h4>CSS3</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-javascript'></i>
-            <h4>JavaScript</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-php'></i>
-            <h4>PHP</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-nodejs'></i>
-            <h4>NodeJS</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-react'></i>
-            <h4>React</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-flutter'></i>
-            <h4>Flutter</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-firebase'></i>
-            <h4>Firebase</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bxl-github'></i>
-            <h4>GitHub</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bx-data'></i>
-            <h4>MySQL</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bx-server'></i>
-            <h4>Laravel</h4>
-        </div>
-
-        <div class="tech-card">
-            <i class='bx bx-cloud'></i>
-            <h4>Docker</h4>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= DEVELOPMENT PROCESS ================= -->
-
-<section class="workflow">
-
-    <div class="section-title">
-        <h2>Development <span>Process</span></h2>
-    </div>
-
-    <div class="workflow-container">
-
-        <div class="workflow-card">
-            <span>01</span>
-            <h3>Requirement</h3>
-            <p>
-                Analisis kebutuhan client dan penyusunan solusi terbaik.
-            </p>
-        </div>
-
-        <div class="workflow-card">
-            <span>02</span>
-            <h3>Design</h3>
-            <p>
-                Mendesain UI/UX modern menggunakan Figma.
-            </p>
-        </div>
-
-        <div class="workflow-card">
-            <span>03</span>
-            <h3>Development</h3>
-            <p>
-                Implementasi Frontend, Backend, Database, dan API.
-            </p>
-        </div>
-
-        <div class="workflow-card">
-            <span>04</span>
-            <h3>Testing</h3>
-            <p>
-                Quality Assurance dan pengujian seluruh fitur.
-            </p>
-        </div>
-
-        <div class="workflow-card">
-            <span>05</span>
-            <h3>Deployment</h3>
-            <p>
-                Publish aplikasi ke cloud server atau hosting.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= WHY CHOOSE US ================= -->
-
-<section class="why">
-
-    <div class="section-title">
-        <h2>Why Choose <span>JAVASNAVASENA</span></h2>
-    </div>
-
-    <div class="why-container">
-
-        <div class="why-card">
-            <i class='bx bx-check-circle'></i>
-            <h3>Professional Team</h3>
-            <p>
-                Tim yang berpengalaman dan memiliki semangat belajar tinggi.
-            </p>
-        </div>
-
-        <div class="why-card">
-            <i class='bx bx-trophy'></i>
-            <h3>Quality First</h3>
-            <p>
-                Mengutamakan kualitas pada setiap project yang dikerjakan.
-            </p>
-        </div>
-
-        <div class="why-card">
-            <i class='bx bx-time-five'></i>
-            <h3>On Time</h3>
-            <p>
-                Berkomitmen menyelesaikan project sesuai timeline.
-            </p>
-        </div>
-
-        <div class="why-card">
-            <i class='bx bx-headphone'></i>
-            <h3>Support</h3>
-            <p>
-                Memberikan dukungan setelah project selesai.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= END SERVICES ================= -->
- <!-- ================= TEAM ================= -->
-
-<section class="team" id="team">
-
-    <div class="section-title">
-        <h2>Meet Our <span>Team</span></h2>
-        <p>
-            Tim profesional JAVASNAVASENA yang berkolaborasi
-            untuk membangun solusi digital terbaik.
-        </p>
-    </div>
-
-    <div class="team-container">
-
-        <div class="team-card">
-
-            <img src="Moh. Jevon Attaillah.png" alt="Foto Moh. Jevon Attaillah">
-
-            <h3>Ketua</h3>
-
-            <span>Moh. Jevon Attaillah</span>
-
-            <p>
-                Bertanggung jawab terhadap perencanaan,
-                koordinasi tim,
-                dan komunikasi dengan client.
-            </p>
-
-            <div class="team-social">
-
-                <a href="https://mjvnaaa.github.io/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
-
-                <a href="https://www.linkedin.com/in/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="https://www.instagram.com/mjvnaaa" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Virdan Andi Wardana.png" alt="Foto Virdan Andi Wardana">
-
-            <h3>Anggota 1</h3>
-
-            <span>Virdan Andi Wardana</span>
-
-            <p>
-                Mengembangkan tampilan website
-                yang modern,
-                responsif,
-                dan interaktif.
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Salam Rizqi Mulia.png" alt="Foto Salam Rizqi Mulia">
-
-            <h3>Anggota 2</h3>
-
-            <span>Salam Rizqi Mulia</span>
-
-            <p>
-                Mengembangkan REST API,
-                Database,
-                Authentication,
-                dan Server.
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Achmad Alfarizy Satriya Gautama.png" alt="Foto Achmad Alfarizy Satriya Gautama">
-
-            <h3>Anggota 3</h3>
-
-            <span>Achmad Alfarizy Satriya Gautama</span>
-
-            <p>
-                Mendesain pengalaman pengguna
-                yang modern,
-                menarik,
-                dan mudah digunakan.
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Nadhifah Afiyah Qurota'ain.png" alt="Foto Nadhifah Afiyah Qurota'ain">
-
-            <h3>Anggota 4</h3>
-
-            <span>Nadhifah Afiyah Qurota'ain</span>
-
-            <p>
-                Koordinator tim dan mendesain pengalaman pengguna
-                yang modern.
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-        <div class="team-card">
-
-            <img src="Mohamad Faishal.png" alt="Foto Mohamad Faishal">
-
-            <h3>Anggota 5</h3>
-
-            <span>Mohamad Faishal</span>
-
-            <p>
-                Membuat tampilan sistem
-                yang modern dan menarik.
-
-            </p>
-
-            <div class="team-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= PORTFOLIO ================= -->
-
-<section class="portfolio" id="portfolio">
-
-    <div class="section-title">
-
-        <h2>Latest <span>Projects</span></h2>
-
-        <p>
-            Beberapa project yang telah dikembangkan
-            oleh tim JAVASNAVASENA.
-        </p>
-
-    </div>
-
-    <div class="portfolio-container">
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="Company Profile">
-
-            <div class="portfolio-layer">
-
-                <h3>Company Profile</h3>
-
-                <p>
-
-                    Website modern untuk perusahaan,
-                    lengkap dengan CMS.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="ReservZone">
-
-            <div class="portfolio-layer">
-
-                <h3>ReservZone</h3>
-
-                <p>
-
-                    Sistem Reservasi Lapangan
-                    berbasis Flutter.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="Cine Booking">
-
-            <div class="portfolio-layer">
-
-                <h3>Cine Booking</h3>
-
-                <p>
-
-                    Aplikasi pemesanan tiket bioskop
-                    berbasis Flutter.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="E-Commerce">
-
-            <div class="portfolio-layer">
-
-                <h3>E-Commerce</h3>
-
-                <p>
-
-                    Website penjualan online
-                    lengkap dengan pembayaran.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="Inventory System">
-
-            <div class="portfolio-layer">
-
-                <h3>Inventory System</h3>
-
-                <p>
-
-                    Sistem manajemen inventaris
-                    berbasis web.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="portfolio-card">
-
-            <img src="logo-javasnavasena.png" alt="POS System">
-
-            <div class="portfolio-layer">
-
-                <h3>POS System</h3>
-
-                <p>
-
-                    Point Of Sale modern
-                    untuk UMKM.
-
-                </p>
-
-                <a href="#">
-
-                    <i class='bx bx-link-external'></i>
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= END TEAM & PORTFOLIO ================= -->
- <!-- ================= ACHIEVEMENTS ================= -->
-
-<section class="achievement">
-
-    <div class="section-title">
-        <h2>Our <span>Achievements</span></h2>
-        <p>
-            Pencapaian yang menjadi motivasi kami untuk terus berkembang.
-        </p>
-    </div>
-
-    <div class="achievement-container">
-
-        <div class="achievement-card">
-            <i class='bx bx-code-block'></i>
-            <h2>25+</h2>
-            <p>Projects Completed</p>
-        </div>
-
-        <div class="achievement-card">
-            <i class='bx bx-group'></i>
-            <h2>6</h2>
-            <p>Team Members</p>
-        </div>
-
-        <div class="achievement-card">
-            <i class='bx bx-medal'></i>
-            <h2>12+</h2>
-            <p>Technologies</p>
-        </div>
-
-        <div class="achievement-card">
-            <i class='bx bx-smile'></i>
-            <h2>100%</h2>
-            <p>Client Satisfaction</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= TESTIMONIAL ================= -->
-
-<section class="testimonial">
-
-    <div class="section-title">
-        <h2>What They <span>Say</span></h2>
-    </div>
-
-    <div class="testimonial-container">
-
-        <div class="testimonial-card">
-
-            <i class='bx bxs-quote-alt-left'></i>
-
-            <p>
-
-                JAVASNAVASENA memberikan solusi yang cepat,
-                profesional,
-                dan mudah dikembangkan.
-
-            </p>
-
-            <h3>Future Client</h3>
-
-            <span>Company Owner</span>
-
-        </div>
-
-        <div class="testimonial-card">
-
-            <i class='bx bxs-quote-alt-left'></i>
-
-            <p>
-
-                Tim memiliki komunikasi yang baik,
-                kualitas coding rapi,
-                dan tepat waktu.
-
-            </p>
-
-            <h3>Future Partner</h3>
-
-            <span>Startup Founder</span>
-
-        </div>
-
-        <div class="testimonial-card">
-
-            <i class='bx bxs-quote-alt-left'></i>
-
-            <p>
-
-                Sangat direkomendasikan untuk
-                pengembangan Website,
-                Mobile Apps,
-                dan Digital Solution.
-
-            </p>
-
-            <h3>Future Customer</h3>
-
-            <span>Business Owner</span>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= CONTACT ================= -->
-
-<section class="contact" id="contact">
-
-    <div class="section-title">
-
-        <h2>Contact <span>Us</span></h2>
-
-        <p>
-            Mari berdiskusi dan wujudkan solusi digital bersama JAVASNAVASENA.
-        </p>
-
-    </div>
-
-    <div class="contact-container">
-
-        <div class="contact-info">
-
-            <h3>Let's Build Something Great Together.</h3>
-
-            <p>
-                Hubungi kami melalui informasi berikut.
-            </p>
-
-            <div class="contact-item">
-
-                <i class='bx bx-envelope'></i>
-
-                <span>javasnavasena@gmail.com</span>
-
-            </div>
-
-            <div class="contact-item">
-
-                <i class='bx bx-phone'></i>
-
-                <span>+62 881-0261-32814</span>
-
-            </div>
-
-            <div class="contact-item">
-
-                <i class='bx bx-map'></i>
-
-                <span>Banyuwangi, Indonesia</span>
-
-            </div>
-
-            <div class="contact-social">
-
-                <a href="#"><i class='bx bxl-github'></i></a>
-
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-                <a href="#"><i class='bx bxl-youtube'></i></a>
-
-            </div>
-
-        </div>
-
-        <form class="contact-form" id="contactForm">
-
-            <input type="text" name="name" placeholder="Full Name" required>
-
-            <input type="email" name="email" placeholder="Email Address" required>
-
-            <input type="text" name="subject" placeholder="Subject" required>
-
-            <textarea rows="8" name="message" placeholder="Write Your Message" required></textarea>
-
-            <button type="submit" class="btn-box">
-                Send Message
-            </button>
-
-            <p class="form-status" id="formStatus" aria-live="polite"></p>
-
-        </form>
-
-    </div>
-
-</section>
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="footer">
-
-    <div class="footer-content">
-
-        <h2>JAVASNAVASENA</h2>
-
-        <p>
-
-            Innovating Through Code,
-            Building Tomorrow Together.
-
-        </p>
-
-        <div class="footer-social">
-
-            <a href="#"><i class='bx bxl-github'></i></a>
-
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-
-            <a href="#"><i class='bx bxl-youtube'></i></a>
-
-        </div>
-
-        <p class="copyright">
-
-            © 2026 JAVASNAVASENA.
-            All Rights Reserved.
-
-        </p>
-
-    </div>
-
-</footer>
-
-<!-- ================= BACK TO TOP ================= -->
-
-<a href="#home" class="back-to-top">
-
-    <i class='bx bx-up-arrow-alt'></i>
-
-</a>
-
-<!-- ================= SCRIPT ================= -->
-
-<script src="main.js" defer></script>
-
-</body>
-
-</html>#   p o r t o f o l i o  
+}#   p o r t o f o l i o  
  
